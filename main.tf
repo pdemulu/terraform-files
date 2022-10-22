@@ -11,6 +11,6 @@ resource "aws_instance" "inst" {
     key_name          = "laptopkey"
   
     tags = {
-      Name = server-one
+      Name = "server-one"
     }
 }
